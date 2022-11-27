@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-image: linear-gradient(rgba(32, 32, 32, 0.6),  rgba(0,0,0,0.8)), url(images/school.jpg);
+    background-size: cover;
+}
+a{
+    color:  #111;
+    text-decoration: blink;
+    align-content: flex-end;
+}
+a:hover{
+    color: skyblue;
+}
+
+.forget{
+  background: #FFF6EA;
+    background-position: left;
+    padding: 40px;
+     z-index: 1;
+    width: 420px;
+    margin: 0 auto 200px;  
+    color: rgb(12, 11, 8);
+     font-size: 18px;
+    border-radius: 10px;
+    padding: 30px;
+}
+h1,h2,h3{
+    text-align: center;
+    padding: 20px; 
+}
+input{
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+input[type=submit]{
+    border: none;
+    background: #FFEEEE;
+    width: 200px;
+    font-size: 16px;
+    color: #111;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 12px; 
+    cursor: pointer;
+    outline: 1px solid;
+    text-align: center;
+     font-family: sans-serif;
+    font-style: italic;
+    font-weight: 600;
+}
+input[type=submit]:hover{
+    color: #fff;
+    background: #000;
+}
+::placeholder{
+     width: 300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
