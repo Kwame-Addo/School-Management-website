@@ -1,14 +1,20 @@
 body{
-    background-image: url(images/presch.jpg);
-    background-size: cover;
+      background-size: cover;
     background-color: #e8f3f8;
+    position: relative;
 }
-
+h1,h2,h3{
+    text-align: center;
+    padding: 20px; 
+}
 /* Navigation bar */
 .navbar {
+    z-index: 10000;
    padding: 0 0 4.5rem;
     background-color:  #F7E9D7;
-
+      position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
 .navbar-brand {
@@ -35,4 +41,83 @@ body{
 .nav-link {
   font-family: "Montserrat-light";
   font-size: 1.6rem;
+    margin-bottom: 30px;
+}
+
+
+.top-container{
+ height: 100vh;
+    background-color: blue;
+    background-repeat:no-repeat;
+     background-size: cover;
+}
+
+
+
+/*top Container Carousel */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3.5rem;
+  line-height: 1.5;
+text-align: center;
+    margin: 15% 15%;
+    font-weight: 900;
+    color: white;
+}
+
+
+.carousel-item1{
+   background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(images/presch.jpg);
+    height: 100vh;
+    background-color: blue;
+    background-repeat:no-repeat;
+     background-size: cover;
+} 
+.carousel-item2{
+   background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(images/school.jpg);
+    height: 100vh;
+    background-color: blue;
+    background-repeat:no-repeat;
+     background-size: cover;
+} 
+
+
+
+/*Middle-container*/
+.middle-container{
+    background-color: #FFF6EA;
+}
+
+.style_featured{
+    padding: 20px 0;
+    text-align: center;
+}
+.style_featured > div > div{
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+.style_featured > div:hover > div{
+    margin-top: +19px;
+    border: 1px solid rgb(153, 200, 250);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 9px 9px 9px;
+    background: rgba(153, 200, 250, 0.1);
+    transition: 0.99s;
+}
+.tile-image{
+    height: 15rem;
+    width: 15rem;;
+    border-radius: 100%
 }
