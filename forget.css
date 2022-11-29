@@ -7,7 +7,7 @@ body{
 a{
     color:  #111;
     text-decoration: blink;
-    align-content: flex-end;
+    margin-left: 30%
 }
 a:hover{
     color: skyblue;
