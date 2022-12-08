@@ -51,7 +51,7 @@ hr:after{
 
 .top-container{
  height: 100vh;
-    background-color: blue;
+    background-color: #FFF6EA;
     background-repeat:no-repeat;
      background-size: cover;
 }
@@ -80,7 +80,7 @@ text-align: center;
       rgba(0, 0, 0, 0.5)
     ), url(images/presch.jpg);
     height: 100vh;
-    background-color: blue;
+    background-color: #F7A4A4;;
     background-repeat:no-repeat;
      background-size: cover;
 } 
@@ -91,7 +91,7 @@ text-align: center;
       rgba(0, 0, 0, 0.5)
     ), url(images/school.jpg);
     height: 100vh;
-    background-color: blue;
+    background-color: #F7A4A4;
     background-repeat:no-repeat;
      background-size: cover;
 } 
@@ -177,7 +177,7 @@ Modules - reusable parts of our design
 
 -------------------------------- */
 .cd-container {
-  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+
   width: 90%;
   max-width: 1170px;
   margin: 0 auto;
