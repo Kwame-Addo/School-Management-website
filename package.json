@@ -1,8 +1,14 @@
 {
-  "scripts":{
+  "scripts": {
     "watch:scss": "node-sass -w styles/styles.scss styles.css"
   },
   "dependencies": {
     "node-sass": "^8.0.0"
-  }
+  },
+  "name": "school-management-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
