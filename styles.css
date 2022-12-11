@@ -64,12 +64,13 @@ hr:after{
 }
 
 .testimonial-text {
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 1.5;
-text-align: center;
+text-align: left;
     margin: 15% 15%;
     font-weight: 900;
     color: white;
+    font-style: italic;
 }
 
 
@@ -113,6 +114,7 @@ text-align: center;
     border: 1px solid transparent;
     border-radius: 4px;
     transition: 0.5s;
+    
 }
 .style_featured > div:hover > div{
     margin-top: +19px;
@@ -122,6 +124,7 @@ text-align: center;
     transition: 0.99s;
    
 }
+
 .tile-image{
     height: 15rem;
     width: 15rem;;

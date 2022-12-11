@@ -18,7 +18,7 @@
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="css/sb-admin-2.css" rel="stylesheet">
+    <link href="css/elite-school-manager.css" rel="stylesheet">
     <link href="css/calendar.css" rel="stylesheet">                  
 </head>
 
@@ -103,7 +103,7 @@
             
              <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="students.html">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Students</span></a>
             </li>
@@ -564,8 +564,20 @@
 
                             <!-- Project Card Example -->
                             <div class="card shadow mb-4">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Projects</h6>
+                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">Project Tracker</h6>
+                                    <div class="dropdown no-arrow">
+                                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                            aria-labelledby="dropdownMenuLink">
+                                            <div class="dropdown-header">School Project Tracker</div>
+                                            <a class="dropdown-item" href="#">Edit Stack</a>
+                                            
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="card-body">
                                     <h4 class="small font-weight-bold">School Expansion Project <span
@@ -798,7 +810,7 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin-2.min.js"></script>
+    <script src="js/elite-school-manager.js"></script>
 
     <!-- Page level plugins -->
     <script src="vendor/chart.js/Chart.min.js"></script>

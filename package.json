@@ -5,10 +5,10 @@
   "dependencies": {
     "node-sass": "^8.0.0"
   },
-  "name": "school-management-website",
+  "name": "EliTe School Manager",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "",
+  "author": "Kwame Addo",
   "license": "ISC",
-  "description": ""
+  "description": "School Erp System for managing its day-to-day activities."
 }
