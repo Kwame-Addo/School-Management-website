@@ -457,6 +457,7 @@ header h1 {
     font-size: 14px;
     font-size: 0.875rem;
   }
+    
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-content {
