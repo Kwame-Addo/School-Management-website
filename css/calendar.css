@@ -25,7 +25,7 @@
 
 
 .calendar {
-    height: max-content;
+    height: 60%;
     width: 100%;
     background-color: var(--bg-main);
     border-radius: 30px;
